@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pneumonia Diagnosis</title>
+</head>
+    <body>
+        <h1>Pneumonia Diagnosis</h1>
+        <form method="POST" action="/" enctype="multipart/form-data">
+            <p>Please Upload a New Pic File (lung X-ray)</p>
+            <p><label>
+                <input type="file" name="file">
+            </label></p>
+            <p><input type="submit" value="Upload"></p>
+        </form>
+        <p>The predictions given by Neural Network is {{result}}<p>
+    </body>
+</html>
